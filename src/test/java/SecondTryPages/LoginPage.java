@@ -29,6 +29,9 @@ public class LoginPage {
 		Inputusername.sendKeys(username);
 		Inputpassword.sendKeys(pass);
 		buttonPages.bottonLogin();
+		
+		
+		
 	}
 	
 }
