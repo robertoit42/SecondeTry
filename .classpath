@@ -35,5 +35,38 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="/FacebookScalable"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/junit/junit/4.12/junit-4.12.jar" sourcepath="C:/Users/ACER/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="junit"/>
+			<attribute name="maven.artifactId" value="junit"/>
+			<attribute name="maven.version" value="4.12"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/cucumber/cucumber-java/1.2.6/cucumber-java-1.2.6.jar" sourcepath="C:/Users/ACER/.m2/repository/io/cucumber/cucumber-java/1.2.6/cucumber-java-1.2.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.cucumber"/>
+			<attribute name="maven.artifactId" value="cucumber-java"/>
+			<attribute name="maven.version" value="1.2.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.junit_4.13.2.v20211018-1956.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://junit.org/junit4/javadoc/latest/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar" sourcepath="C:/Users/ACER/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.aspectj"/>
+			<attribute name="maven.artifactId" value="aspectjweaver"/>
+			<attribute name="maven.version" value="1.8.10"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -7,11 +7,15 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 
 
+
+
 	@RunWith(CucumberWithSerenity.class)
 	//@CucumberOptions(features = { "src/test/resources/features"  }, glue = {"SecondTryDefinitions" })
-	@CucumberOptions(features = { "src/test/resources/features"  }, glue = {"SecondTryDefinitions" }, tags = {"@Tag"})
+	@CucumberOptions(features = { "src/test/resources/features"  }, glue = {"SecondTryDefinitions" }, tags = {"@Login"})
 	
 	public class RunnersFeature {
 		
 	}
+	
+	
 

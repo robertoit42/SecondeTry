@@ -9,6 +9,7 @@ import SecondTrySteps.Questions;
 public class LeavePage {
 	private ButtonPages buttonPages;
 	private Questions questions;
+	
 
 	//constructor
 	public LeavePage(WebDriver driver) {
@@ -24,5 +25,7 @@ public class LeavePage {
 	public void scrolldown(String employee) {
 	  questions.searchScroll(employee);
 	}
+	
+	
 	
 }

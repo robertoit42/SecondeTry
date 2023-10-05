@@ -13,6 +13,7 @@ import cucumber.api.java.en.When;
 
 public class DefinitionsSteps {
 	private WebDriver driver;
+	
 	private Conexion conexion = new Conexion();
 	private LoginPage loginPage= new LoginPage(driver);
 	private PimPage pimPage = new PimPage(driver);
@@ -53,6 +54,13 @@ public class DefinitionsSteps {
 	public void bajarToEmployee(String employee) {
 		this.leavePage= new LeavePage(driver);
 		this.leavePage.scrolldown(employee);
+	}
+	
+	@And("^regresa a cerrar explorador$")
+	public void cerrarExplorador() {
+		this.conexion = new Conexion();
+		this.driver=this.conexion.PostEjecucion(driver);
+		
 	}
 	
 }

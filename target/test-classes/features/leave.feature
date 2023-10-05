@@ -8,6 +8,7 @@ Feature: LeavePage
     And llenar campo usuario<username> y password<password>
     And llegar a leave page
     And Scroll Down to employee<employee>
+    And regresa a cerrar explorador
 
     Examples: 
       | username | password | employee       |
