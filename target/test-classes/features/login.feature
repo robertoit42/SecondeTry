@@ -7,6 +7,7 @@ Feature: Login to Secondtry
     And llenar campo usuario<username> y password<password>
     And llegar a la opcion agregar empleado
     And al diligenciar first name<firstName> y lastname <lastName>
+    And regresa a cerrar explorador
 
     Examples: 
       | username | password | firstName | lastName |

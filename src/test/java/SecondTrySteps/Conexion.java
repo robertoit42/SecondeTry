@@ -11,13 +11,14 @@ import cucumber.api.java.Before;
 
 public class Conexion {
 	 
-private WebDriver driver = new ChromeDriver();
+//private WebDriver driver = new ChromeDriver();
+	WebDriver driver;
 	//private WebDriver driver;
 
 	@Before
-	public WebDriver abrirElNavegador() {
+	public WebDriver abrirElNavegador(WebDriver driver) {
 		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
-		//driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -29,6 +30,7 @@ private WebDriver driver = new ChromeDriver();
 	@After
 	public WebDriver PostEjecucion(WebDriver driver) {
 		
+		//driver = new ChromeDriver();
 		driver.close();
 		driver.quit();
 		return driver;

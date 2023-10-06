@@ -23,7 +23,7 @@ public class DefinitionsSteps {
 	@Given("^abrir el navegador$")
 	public void abrir_Navegador() {
 	this.conexion = new Conexion();
-	this.driver=this.conexion.abrirElNavegador();
+	this.driver=this.conexion.abrirElNavegador(driver);
 	}
 	
 	@And("^llenar campo usuario(.*) y password(.*)$")
